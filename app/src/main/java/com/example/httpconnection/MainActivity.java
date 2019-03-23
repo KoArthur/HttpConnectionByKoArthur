@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     private String params = "adult=false&first=1";
     private String getUrl = "http://service.picasso.adesk.com/v1/vertical/category?adult=false&first=1";
     private String imageUrl = "http://img5.adesk.com/5c921bd5e7bce7554e131894?imageMogr2/thumbnail/!640x480r/gravity/Center/crop/640x480";
-    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

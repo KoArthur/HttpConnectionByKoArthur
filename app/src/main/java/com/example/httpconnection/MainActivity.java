@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         //检查是否有SD卡存储权限，没有则申请权限
         if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 != PackageManager.PERMISSION_GRANTED) {
